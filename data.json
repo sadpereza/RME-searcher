@@ -1,0 +1,2656 @@
+[
+    {
+        "name": "Buckler",
+        "propertytable": {
+            "Martial": [
+                " If you wield a weapon in the same hand as the buckler",
+                "you suffer -2 to Attack rolls with it.",
+                "If you are wielding only the buckler in your off hand",
+                "it has Deflect (d8)."
+            ],
+            "Master": [
+                " You only suffer -1 to attack for wielding a weapon with the buckler hand.",
+                "You may add the deflect roll from the buckler to any deflect roll you make with your main hand",
+                "and if this roll reduces incoming damage to 0",
+                "you may immediately make an attack against your attacker as part of the same reaction. "
+            ]
+        }
+    },
+    {
+        "name": "Skirmish",
+        "propertytable": {
+            "Martial": [
+                " You gain an additional +2AC bonus against ranged weapon attacks",
+                "adding +4AC in total. "
+            ],
+            "Master": [
+                " You gain an additional +2AC bonus against ranged spell attacks",
+                "adding +4 in total",
+                "and a successful shove deals d4 + Strength modifier in bludgeoning damage. "
+            ]
+        }
+    },
+    {
+        "name": "Tower",
+        "propertytable": {
+            "Martial": [
+                " You negate any flanking bonus an enemy might have on you. Additionally",
+                "you may use your reaction to gain half cover",
+                "possibly negating an attack",
+                "or granting you a bonus to your dexterity saving throw before you roll."
+            ],
+            "Master": [
+                " While using the shield as cover",
+                "if you are subjected to an effect that allows you to make a dexterity saving throw",
+                "and you fail that save",
+                "you take only half damage. "
+            ]
+        }
+    },
+    {
+        "name": "Punch Dagger",
+        "propertytable": {
+            "Simple": [
+                " One Handed",
+                "Melee d4",
+                "Conceal",
+                "Finesse",
+                "Light "
+            ],
+            "Martial": [
+                " One Handed",
+                "Melee d4",
+                "Conceal",
+                "Finesse",
+                "Light",
+                "Penetrate "
+            ],
+            "Master": [
+                " One Handed",
+                "Melee d4",
+                "Conceal",
+                "Finesse",
+                "Light",
+                "Penetrate "
+            ],
+            "Master Perk": "You have advantage on opportunity attacks made with this weapon. Additionally, if this weapon is in your off hand, you may make an opportunity attack with your main hand and this weapon."
+        }
+    },
+    {
+        "name": "Whip Dagger",
+        "propertytable": {
+            "Simple": [
+                " Two Handed",
+                "Melee d4",
+                "Conceal",
+                "Awkward",
+                "Finesse",
+                "Reach "
+            ],
+            "Martial": [
+                " Two Handed",
+                "Melee d4",
+                "Conceal",
+                "Entangle",
+                "Finesse",
+                "Reach "
+            ],
+            "Master": [
+                " One Handed",
+                "Melee d4",
+                "Conceal",
+                "Entangle",
+                "Finesse",
+                "Lunge",
+                "Reach "
+            ],
+            "Master Perk": "When your attack is successful, as a Bonus Action, you can choose to force the enemy to succeed on a Strength saving throw or be pulled up to 10ft toward you."
+        }
+    },
+    {
+        "name": "Gauntlet",
+        "propertytable": {
+            "Simple": [
+                " One Handed",
+                "Melee d2 "
+            ],
+            "Martial": [
+                " One Handed",
+                "Melee d4 "
+            ],
+            "Master": [
+                " One Handed",
+                "Melee (table)",
+                "Light "
+            ],
+            "Master Perk": "When you are hit with a melee attack, as a reaction before the damage, you can attempt a disarm attack. If you are successful, you take no damage, but if you are unsuccessful, you take damage as normal."
+        }
+    },
+    {
+        "name": "Hidden Blade",
+        "propertytable": {
+            "Simple": [
+                " One Handed",
+                "Melee d4",
+                "Awkward",
+                "Conceal",
+                "Finesse",
+                "Light "
+            ],
+            "Martial": [
+                " One Handed",
+                "Melee d4",
+                "Conceal",
+                "Finesse",
+                "Light "
+            ],
+            "Master": [
+                " One Handed",
+                "Melee d4",
+                "Conceal",
+                "Finesse",
+                "Light "
+            ],
+            "Master Perk": "Any hit against a surprised creature takes maximum damage from this weapon and any attachers such as sneak attack, instead of rolling for the damage."
+        }
+    },
+    {
+        "name": "Interceptor",
+        "propertytable": {}
+    },
+    {
+        "name": "Knuckle Axe",
+        "propertytable": {
+            "Simple": [
+                " One Handed",
+                "Melee d4",
+                "Awkward",
+                "Light "
+            ],
+            "Martial": [
+                " One Handed",
+                "Melee d6",
+                "Deflect",
+                "Light "
+            ],
+            "Master": [
+                " One Handed",
+                "Melee d6",
+                "Deflect",
+                "Light "
+            ],
+            "Master Perk": "When you score a critical hit, make an additional melee attack to another creature adjacent to you as part of the same action."
+        }
+    },
+    {
+        "name": "Side Baton",
+        "propertytable": {
+            "Simple": [
+                " One Handed",
+                "Melee d4",
+                "Light "
+            ],
+            "Martial": [
+                " One Handed",
+                "Melee d6",
+                "Deflect",
+                "Light "
+            ],
+            "Master": [
+                " One Handed",
+                "Melee d8",
+                "Deflect",
+                "Light",
+                "Trip "
+            ],
+            "Master Perk": "Your deflect roll is 2d10, rather than d8, and you may add your proficiency to this roll."
+        }
+    },
+    {
+        "name": "Unarmed Strikes",
+        "propertytable": {
+            "Simple": [
+                " One handed",
+                "Melee d1",
+                "Awkward "
+            ],
+            "Martial": [
+                " One handed",
+                "Melee d4",
+                "Finesse "
+            ],
+            "Master": [
+                " One handed",
+                "Melee Table",
+                "Deflect",
+                "Disarm",
+                "Finesse",
+                "Light",
+                "Trip "
+            ],
+            "Master Perk": "You may use your bonus action to perform a shove or disarm attack."
+        }
+    },
+    {
+        "name": "Battle Axe",
+        "propertytable": {
+            "Simple": [
+                " Two Handed",
+                "Melee d8",
+                "Awkward "
+            ],
+            "Martial": [
+                " One Handed",
+                "Melee d8",
+                "Trip",
+                "Versatile d10"
+            ],
+            "Master": [
+                " One Handed",
+                "Melee d10,Trip",
+                "Versatile d12"
+            ]
+        }
+    },
+    {
+        "name": "Greataxe",
+        "propertytable": {
+            "Simple": [
+                " Two Handed",
+                "Melee d10",
+                "Awkward",
+                "Heavy "
+            ],
+            "Martial": [
+                " Two Handed",
+                "Melee d12",
+                "Disarm",
+                "Heavy",
+                "Trip "
+            ],
+            "Master": [
+                " Two Handed",
+                "Melee 2d8",
+                "Disarm",
+                "Heavy",
+                "Trip "
+            ],
+            "Master Perk": "When you roll at least 5 higher than the enemy's AC, you can roll all damage and any attachers such as elemental damage twice and take the better result."
+        }
+    },
+    {
+        "name": "Halberd",
+        "propertytable": {
+            "Simple": [
+                " Two Handed ",
+                "Melee d10",
+                "Awkward",
+                "Brace",
+                "Heavy "
+            ],
+            "Martial": [
+                " Two Handed",
+                "Melee 2d6",
+                "Brace",
+                "Heavy",
+                "Reach",
+                "Trip "
+            ],
+            "Master": [
+                " Two Handed",
+                "Melee 3d4",
+                "Brace",
+                "Entangle",
+                "Heavy",
+                "Reach",
+                "Trip "
+            ],
+            "Master Perk": "You gain advantage on trip attacks made to mounted enemies and Large creatures. If your trip is successful against a mounted foe, it is automatically pulled from its mount to a prone position. You gain advantage on entangle attacks made against enemies two size categories larger than you."
+        }
+    },
+    {
+        "name": "Handaxe",
+        "propertytable": {
+            "Simple": [
+                " One Handed",
+                "Melee d6",
+                "Thrown (10/30) "
+            ],
+            "Martial": [
+                " One Handed",
+                "Melee d6",
+                "Thrown (20/60)",
+                "Light",
+                "Trip "
+            ],
+            "Master": [
+                " One Handed",
+                "Melee d6",
+                "Thrown (20/60)",
+                "Disarm",
+                "Light",
+                "Trip "
+            ],
+            "Master Perk": "You gain advantage on all disarm attacks."
+        }
+    },
+    {
+        "name": "Hook Sword",
+        "propertytable": {
+            "Simple": [
+                " One Handed",
+                "Melee d6",
+                "Awkward "
+            ],
+            "Martial": [
+                " One Handed",
+                "Melee d6",
+                "Deflect",
+                "Disarm",
+                "Finesse",
+                "Light",
+                "Trip "
+            ],
+            "Master": [
+                " One Handed",
+                "Melee d6",
+                "Deflect",
+                "Disarm",
+                "Finesse",
+                "Light",
+                "Entangle",
+                "Lunge",
+                "Trip"
+            ],
+            "Master Perk": "When you are hit with a melee weapon attack, as a reaction you can make a disarm or entangle attack against that enemy. While dual wielding two hook swords, you have reach and a lunge does not use your reaction."
+        }
+    },
+    {
+        "name": "Khopesh",
+        "propertytable": {
+            "Simple": [
+                " One Handed",
+                "Melee d8",
+                "Awkward",
+                "Disarm "
+            ],
+            "Martial": [
+                " One Handed",
+                "Melee 2d4",
+                "Disarm",
+                "Light",
+                "Trip "
+            ],
+            "Master": [
+                " One Handed",
+                "Melee 2d4",
+                "Disarm",
+                "Light",
+                "Trip "
+            ],
+            "Master Perk": "When you make a trip attack, if you hit, even if they save against the attempt, your enemy's speed is reduced by 10ft until the end of their next turn. While they have this penalty, they have disadvantage saving throws against a trip attack."
+        }
+    },
+    {
+        "name": "Poleaxe",
+        "propertytable": {
+            "Simple": [
+                " Two Handed",
+                "Melee d10",
+                "Awkward",
+                "Heavy "
+            ],
+            "Martial": [
+                " Two Handed",
+                "Melee d10",
+                "Brace",
+                "Deflect",
+                "Heavy",
+                "Penetrate",
+                "Trip "
+            ],
+            "Master": [
+                " Two Handed",
+                "Melee 2d6",
+                "Brace",
+                "Deflect",
+                "Heavy",
+                "Penetrate",
+                "Trip "
+            ],
+            "Master Perk": "While wielding a poleaxe, you gain +1 AC and you may add your proficiency bonus to deflect rolls."
+        }
+    },
+    {
+        "name": "Tomahawk",
+        "propertytable": {
+            "Simple": [
+                " One Handed",
+                "Melee d4",
+                "Awkward",
+                "Thrown (10/30) "
+            ],
+            "Martial": [
+                " One Handed",
+                "Melee d4",
+                "Thrown (40/120)",
+                "Finesse",
+                "Light",
+                "Trip "
+            ],
+            "Master": [
+                " One Handed",
+                "Melee d4",
+                "Thrown (40/120)",
+                "Disarm",
+                "Finesse",
+                "Light",
+                "Trip "
+            ],
+            "Master Perk": "You can choose to take a -5 penalty to a ranged attack roll. If the attack hits, you add +10 to the attack's damage."
+        }
+    },
+    {
+        "name": "Greatclub",
+        "propertytable": {
+            "Simple": [
+                " Two Handed",
+                "Melee d8",
+                "Heavy "
+            ],
+            "Martial": [
+                " Two Handed",
+                "Melee d8",
+                "Disarm",
+                "Penetrate",
+                "Heavy "
+            ],
+            "Master": [
+                " Two Handed",
+                "Melee d10",
+                "Deflect",
+                "Disarm",
+                "Penetrate",
+                "Heavy "
+            ],
+            "Master Perk": "If you are successful in a disarm attempt, the enemy can no longer add proficiency to <br>attacks with that weapon."
+        }
+    },
+    {
+        "name": "Heavy Club",
+        "propertytable": {
+            "Simple": [
+                " Two Handed",
+                "Melee d6"
+            ],
+            "Martial": [
+                " One Handed",
+                "Melee d6,<br> Thrown (10/30) "
+            ],
+            "Master": [
+                " One Handed",
+                "Melee d8",
+                "Versatile d10",
+                "Thrown (20/40) "
+            ],
+            "Master Perk": "When you score a critical hit, <br>your enemy is stunned for d4 <br>rounds. At the end of each of<br> its turns, your stunned enemy<br> can attempt a Constitution<br> saving throw, ending the<br> effect on a success."
+        }
+    },
+    {
+        "name": "Light Club",
+        "propertytable": {
+            "Simple": [
+                " One Handed",
+                "Melee d4",
+                "Conceal",
+                "Finesse",
+                "Light "
+            ],
+            "Martial": [
+                " One Handed",
+                "Melee d4",
+                "Conceal",
+                "Thrown (20/60)",
+                "Finesse",
+                "Light "
+            ],
+            "Master": [
+                " One Handed",
+                "Melee d6",
+                "Conceal",
+                "Thrown (20/60)",
+                "Finesse",
+                "Light "
+            ],
+            "Master Perk": "On hit, you can choose to deal only your Strength modifier in damage but your foe must succeed on a Constitution saving throw or suffer disadvantage to its Saving Throws until the end of your next turn."
+        }
+    },
+    {
+        "name": "Bar Mace",
+        "propertytable": {
+            "Simple": [
+                " Two Handed",
+                "Melee d6",
+                "Disarm "
+            ],
+            "Martial": [
+                " One Handed",
+                "Melee d8",
+                "Disarm"
+            ],
+            "Master": [
+                " One Handed",
+                "Melee d8",
+                "Deflect",
+                "Disarm "
+            ],
+            "Master Perk": "If you successfully Disarm, your enemy has disadvantage on melee attacks. At the end of its turn, it can attempt a Constitution saving throw, ending this effect on a success. You can apply this effect to any creature on a success regardless of if it is wielding a weapon."
+        }
+    },
+    {
+        "name": "Flanged Mace",
+        "propertytable": {
+            "Simple": [
+                " One Handed",
+                "Melee d6"
+            ],
+            "Martial": [
+                " One Handed",
+                "Melee d6",
+                "Light",
+                "Penetrate"
+            ],
+            "Master": [
+                " One Handed",
+                "Melee d8",
+                "Light",
+                "Penetrate"
+            ],
+            "Master Perk": "Your penetrate affects creatures in any armor. You may also add your strength modifier twice to Penetrate damage totals."
+        }
+    },
+    {
+        "name": "Mallet",
+        "propertytable": {
+            "Simple": [
+                " One Handed",
+                "Melee d8",
+                "Light"
+            ],
+            "Martial": [
+                " One Handed",
+                "Melee d8",
+                "Thrown (20/60)",
+                "Disarm",
+                "Light"
+            ],
+            "Master": [
+                " One Handed",
+                "Melee d8",
+                "Thrown (30/90)",
+                "Disarm",
+                "Light  "
+            ],
+            "Master Perk": "As a bonus action, you can make a shove attempt which, if successful, deals bludgeoning damage equal to your strength modifier."
+        }
+    },
+    {
+        "name": "Morningstar",
+        "propertytable": {
+            "Simple": [
+                " Two Handed",
+                "Melee d8"
+            ],
+            "Martial": [
+                " Two Handed",
+                "Melee d10",
+                "Brace",
+                "Penetrate",
+                "Reach "
+            ],
+            "Master": [
+                " Two Handed",
+                "Melee d12",
+                "Brace",
+                "Double Ended d4",
+                "Penetrate",
+                "Reach "
+            ],
+            "Master Perk": "As an action, you can try to ruin the protective qualities of your enemy's armor, even if it is Natural Armor. Before you roll an attack, you can choose to take a -5 to the roll. On hit, you deal piercing damage equal to your strength modifier, but reduce the enemy's AC by the same amount."
+        }
+    },
+    {
+        "name": "Quarterstaff",
+        "propertytable": {
+            "Simple": [
+                " Two Handed",
+                "Melee d6"
+            ],
+            "Martial": [
+                " Two Handed",
+                "Melee d8",
+                "Double Ended d6 "
+            ],
+            "Master": [
+                " Two Handed",
+                "Melee d8",
+                "Double Ended d8 "
+            ],
+            "Master Perk": "You gain +1 AC while wielding this weapon. Additionally, you may use Double Ended when making an Opportunity Attack, making two attacks instead of one."
+        }
+    },
+    {
+        "name": "Bladed Bow",
+        "propertytable": {
+            "Simple": [
+                " Two Handed",
+                "Ranged d8 (100/500)",
+                "Awkward",
+                "Heavy "
+            ],
+            "Martial": [
+                " Two Handed",
+                "Ranged d8 (120/600)",
+                "Melee d6",
+                "Finesse",
+                "Heavy "
+            ],
+            "Master": [
+                " Two Handed",
+                "Ranged d8 (120/600)",
+                "Melee d6",
+                "Double Ended d6",
+                "Finesse",
+                "Heavy "
+            ],
+            "Master Perk": "As a bonus action, you may choose the Disengage action."
+        }
+    },
+    {
+        "name": "Compound Bow",
+        "propertytable": {
+            "Simple": [
+                " Two Handed",
+                "Ranged d10 (100/500)",
+                "Awkward",
+                "Penetrate",
+                "Reload Reaction "
+            ],
+            "Martial": [
+                " Two Handed",
+                "Ranged d10 (200/800)",
+                "Penetrate",
+                "Reload Object Interaction"
+            ],
+            "Master": [
+                " Two Handed",
+                "Ranged d12 (200/800)",
+                "Penetrate",
+                "Reload Part of Attack"
+            ],
+            "Master Perk": "When you overdraw, you take the normal -5 to attack, but if you hit, you deal damage to your primary target, and one other target in a straight line from you that intersects your first target."
+        }
+    },
+    {
+        "name": "Greatbow",
+        "propertytable": {
+            "Simple": [
+                " Two Handed",
+                "Ranged d10 (100/500)",
+                "Awkward",
+                "Heavy "
+            ],
+            "Martial": [
+                " Two Handed",
+                "Ranged d10 (200/800)",
+                "Heavy",
+                "Trip "
+            ],
+            "Master": [
+                " Two Handed",
+                "Ranged d12 (200/800)",
+                "Heavy",
+                "Trip "
+            ],
+            "Master Perk": "When you score a critical hit, your enemy must succeed on a strength saving throw or be shoved 5ft in a straight line away from you and knocked prone. Large creatures have advantage on this save, and larger creatures are immune. Creatures that are flying have disadvantage on this save."
+        }
+    },
+    {
+        "name": "Longbow",
+        "propertytable": {
+            "Simple": [
+                " Two Handed",
+                "Ranged d8 (100/500)",
+                "Awkward",
+                "Heavy "
+            ],
+            "Martial": [
+                " Two Handed",
+                "Ranged d8 (120/600)",
+                "Heavy "
+            ],
+            "Master": [
+                " Two Handed",
+                "Ranged d10 (120/600)",
+                "Heavy "
+            ],
+            "Master Perk": "If you suffer disadvantage for any reason, you can use your reaction to attempt a concentration check against DC10 or half your target's AC, whichever is higher. If you succeed, your disadvantage is negated."
+        }
+    },
+    {
+        "name": "Recurve",
+        "propertytable": {
+            "Simple": [
+                " Two Handed",
+                "Ranged d8 (100/500) "
+            ],
+            "Martial": [
+                " Two Handed",
+                "Ranged 2d4 (120/600)"
+            ],
+            "Master": [
+                " Two Handed",
+                "Ranged 2d4 (120/600)"
+            ],
+            "Master Perk": "You can loose two arrows at the same time. You must choose two targets within your normal range that are within 5 ft of one another, but may attack each target separately with the same attack. These attacks suffer disadvantage that cannot be removed."
+        }
+    },
+    {
+        "name": "Shortbow",
+        "propertytable": {
+            "Simple": [
+                " Two Handed",
+                "Ranged d6 (60/240) "
+            ],
+            "Martial": [
+                " Two Handed",
+                "Ranged d6 (80/320) "
+            ],
+            "Master": [
+                " Two Handed",
+                "Ranged d8 (80/320)"
+            ],
+            "Master Perk": "You threaten 5ft around you and can make a ranged opportunity attack when an enemy leaves your threatened space. You do not have disadvantage to ranged attacks if an enemy is within 5ft of you."
+        }
+    },
+    {
+        "name": "Sling",
+        "propertytable": {
+            "Simple": [
+                " One Handed",
+                "Conceal",
+                "Ranged d4 (30/120) "
+            ],
+            "Martial": [
+                " One Handed",
+                "Conceal",
+                "Disarm",
+                "Ranged d4 (30/120) "
+            ],
+            "Master": [
+                " One Handed",
+                "Conceal",
+                "Disarm",
+                "Entangle",
+                "Melee d6",
+                "Ranged d6 (30/120)",
+                "Light",
+                "Trip "
+            ],
+            "Master Perk": "You can take -5 to the attack roll to hurl with extra strength, and on hit, the target must succeed on a Constitution saving throw or have disadvantage to attacks until the end of its next turn."
+        }
+    },
+    {
+        "name": "Wrist Shot",
+        "propertytable": {
+            "Simple": [
+                " Two Handed",
+                "Ranged d4 (40/160)",
+                "Awkward "
+            ],
+            "Martial": [
+                " Two Handed",
+                "Ranged d4 (40/160)",
+                "Disarm "
+            ],
+            "Master": [
+                " Two Handed",
+                "Ranged d6 (40/160)",
+                "Disarm "
+            ],
+            "Master Perk": "You can measure distance from yourself to a single DM approved obstacle, and then to your target. If that range is within your long distance, you can ignore any cover the enemy has. You can bounce twice, but this attack is made with disadvantage."
+        }
+    },
+    {
+        "name": "Bastard Sword",
+        "propertytable": {
+            "Simple": [
+                " Two Handed",
+                "Melee d10",
+                "Awkward",
+                "Heavy "
+            ],
+            "Martial": [
+                " Two Handed",
+                "Melee d12",
+                "Heavy "
+            ],
+            "Master": [
+                " One Handed",
+                "Melee d12",
+                "Heavy",
+                "Versatile 2d6 "
+            ],
+            "Master Perk": "Your Critical hit range is 19-20, unless it is 18-20. Against category size Large and larger enemies, your damage is 2d8(2d10) instead of d12(2d6)."
+        }
+    },
+    {
+        "name": "Broadsword",
+        "propertytable": {
+            "Simple": [
+                " One Handed",
+                "Melee d8",
+                "Awkward "
+            ],
+            "Martial": [
+                " One Handed",
+                "Melee",
+                "2d4",
+                "Penetrate "
+            ],
+            "Master": [
+                " One Handed",
+                "Melee 3d4",
+                "Penetrate "
+            ],
+            "Master Perk": "When you score a critical hit, triple your Strength modifier to damage, and make one additional attack as part of the same action. This effect can only happen once during your turn."
+        }
+    },
+    {
+        "name": "Greatsword",
+        "propertytable": {
+            "Simple": [
+                " Two Handed",
+                "Melee 2d6",
+                "Awkward",
+                "Heavy "
+            ],
+            "Martial": [
+                " Two Handed",
+                "Melee 2d8",
+                "Heavy"
+            ],
+            "Master": [
+                " Two Handed",
+                "Melee 2d10",
+                "Heavy"
+            ],
+            "Master Perk": "Against category size Large and larger enemies, your damage is 2d12, instead of 2d10."
+        }
+    },
+    {
+        "name": "Katana",
+        "propertytable": {
+            "Simple": [
+                " Two Handed",
+                "Melee d6",
+                "Awkward "
+            ],
+            "Martial": [
+                " One Handed",
+                "Melee d6",
+                "Finesse",
+                "Light",
+                "Versatile d8"
+            ],
+            "Master": [
+                " One Handed",
+                "Melee d8",
+                "Deflect",
+                "Finesse",
+                "Light",
+                "Versatile d10 "
+            ],
+            "Master Perk": "While wielding this weapon with two hands, your deflect dice becomes 2d10. With one hand, you may add your proficiency bonus to your deflect rolls."
+        }
+    },
+    {
+        "name": "Longsword",
+        "propertytable": {
+            "Simple": [
+                " Two Handed",
+                "Melee d8",
+                "Awkward "
+            ],
+            "Martial": [
+                " One Handed",
+                "Melee d8",
+                "Disarm",
+                "Versatile d10 "
+            ],
+            "Master": [
+                " One Handed",
+                "Melee d10",
+                "Disarm",
+                "Finesse",
+                "Versatile d12"
+            ],
+            "Master Perk": "Your Critical hit range is 18-20."
+        }
+    },
+    {
+        "name": "Montante",
+        "propertytable": {
+            "Simple": [
+                " Two Handed",
+                "Melee 2d6",
+                "Awkward",
+                "Heavy "
+            ],
+            "Martial": [
+                " Two Handed",
+                "Melee 2d6",
+                "Heavy",
+                "Reach "
+            ],
+            "Master": [
+                " Two Handed",
+                "Melee 3d6",
+                "Heavy",
+                "Reach "
+            ],
+            "Master Perk": "You have +1 AC while wielding this weapon, and you negate any flanking bonus any enemy might have for flanking you or having the enemy's ally near you, such as pack tactics or sneak attack."
+        }
+    },
+    {
+        "name": "Scimitar",
+        "propertytable": {
+            "Simple": [
+                " One Handed",
+                "Melee d6",
+                "Awkward "
+            ],
+            "Martial": [
+                " One Handed",
+                "Melee d6",
+                "Finesse",
+                "Light "
+            ],
+            "Master": [
+                " One Handed",
+                "Melee d8",
+                "Deflect",
+                "Finesse",
+                "Light "
+            ],
+            "Master Perk": "When you choose to deflect, you may roll twice and take the better result. Additionally, if you travel at least 20ft before you make an attack, your weapon deals an additional d8 slashing damage for one attack. To deal this extra damage again, you must travel an additional 20 feet, choosing the same or different target."
+        }
+    },
+    {
+        "name": "Short Glaive",
+        "propertytable": {
+            "Simple": [
+                " Two Handed",
+                "Melee d8",
+                "Awkward "
+            ],
+            "Martial": [
+                " Two Handed",
+                "Melee 2d4",
+                "Finesse",
+                "Lunge "
+            ],
+            "Master": [
+                " Two Handed",
+                "Melee 2d4",
+                "Brace",
+                "Finesse",
+                "Lunge "
+            ],
+            "Master Perk": "If an enemy misses you with a melee attack, you can use your reaction to make a melee attack against that enemy."
+        }
+    },
+    {
+        "name": "Blowgun",
+        "propertytable": {
+            "Simple": [
+                " One Handed",
+                "Ranged d1 (25/40)",
+                "Awkward. Reload Object Interaction "
+            ],
+            "Martial": [
+                " One Handed",
+                "Ranged d2 (25/100)",
+                "Reload <br>Part of Attack",
+                "Light  "
+            ],
+            "Master": [
+                " One Handed",
+                "Ranged d4 (25/100)",
+                "Light",
+                "Reload Part of Attack",
+                "Light  "
+            ],
+            "Master Perk": "You can load two darts. Roll two attacks <br>against the same target. Each dart <br>deals d2 damage and applies their<br> effect to the target, but you can <br>only do this at your normal range."
+        }
+    },
+    {
+        "name": "Hand Crossbow",
+        "propertytable": {
+            "Simple": [
+                " One Handed",
+                "Ranged d6+1 (20/60)",
+                "Light",
+                "Reload Reaction "
+            ],
+            "Martial": [
+                " One Handed",
+                "Ranged d6+1 (30/120) Light",
+                "Reload Object Interaction "
+            ],
+            "Master": [
+                " One Handed",
+                "Ranged d6+1 (30/120) Light",
+                "Reload Part of Attack "
+            ],
+            "Master Perk": "Can be reloaded with one hand. As a bonus action, you can make an attack with this weapon, even if you haven't taken the attack action."
+        }
+    },
+    {
+        "name": "Heavy Crossbow",
+        "propertytable": {
+            "Simple": [
+                " Two Handed",
+                "Ranged d10+3 (50/200)",
+                "Heavy",
+                "Penetrate",
+                "Reload Action "
+            ],
+            "Martial": [
+                " Two Handed",
+                "Ranged d10+3 (100/400)",
+                "Heavy",
+                "Penetrate",
+                "Reload Attack",
+                "Trip"
+            ],
+            "Master": [
+                " Two Handed",
+                "Ranged d10+3 (100/400)",
+                "Heavy",
+                "Penetrate",
+                "Reload Bonus",
+                "Trip "
+            ],
+            "Master Perk": "Before you roll an attack, you can choose to take -5 to the roll. If you hit, your enemy must succeed on a strength saving throw or be knocked prone. Category Large creatures gain advantage on this save, while larger creatures are immune. Flying creatures suffer disadvantage on this save while flying."
+        }
+    },
+    {
+        "name": "Hidden Crossbow",
+        "propertytable": {}
+    },
+    {
+        "name": "Light Crossbow",
+        "propertytable": {
+            "Simple": [
+                " Two Handed",
+                "Ranged d8+2 (40/200)",
+                "Reload Attack "
+            ],
+            "Martial": [
+                " Two Handed",
+                "Ranged d8+2 (80/320)",
+                "Reload Reaction "
+            ],
+            "Master": [
+                " Two Handed",
+                "Ranged d8+2 (80/320)",
+                "Reload Object Interaction "
+            ],
+            "Master Perk": "You threaten 5ft around you and can make a ranged opportunity attack if an enemy leaves your threatened space."
+        }
+    },
+    {
+        "name": "Mauler",
+        "propertytable": {
+            "Simple": [
+                " Two Handed",
+                "Ranged 3d4 (20/50) Awkward",
+                "Penetrate",
+                "Reload Action "
+            ],
+            "Martial": [
+                " Two Handed",
+                "Ranged 3d4 (30/60)",
+                "Penetrate",
+                "Reload Attack "
+            ],
+            "Master": [
+                " Two Handed",
+                "Ranged 3d4 (40/80)",
+                "Penetrate",
+                "Reload Bonus "
+            ],
+            "Master Perk": "When you score a critical within normal range, roll 6d4 for your bonus critical damage."
+        }
+    },
+    {
+        "name": "Portable Ballista",
+        "propertytable": {
+            "Simple": [
+                " Two Handed",
+                "Ranged d12+4 (150/400)",
+                "Awkward",
+                "Entangle",
+                "Heavy",
+                "Penetrate",
+                "Reload Action",
+                "Trip "
+            ],
+            "Martial": [
+                " Two Handed",
+                "Ranged d12+4 (150/600)",
+                "Heavy",
+                "Entangle",
+                "Penetrate",
+                "Reload Attack",
+                "Trip"
+            ],
+            "Master": [
+                " Two Handed",
+                "Ranged d12+4 (150/600)",
+                "Heavy",
+                "Entangle",
+                "Penetrate",
+                "Reload Bonus",
+                "Trip "
+            ],
+            "Master Perk": "The crossbow mastery two-target range is 50ft. Additionally, your Entangle attacks add the restrained condition if successful, as you pin your target to the ground or surrounding terrain features."
+        }
+    },
+    {
+        "name": "Spinner",
+        "propertytable": {
+            "Simple": [
+                " Two Handed",
+                "Ranged 2d4 (20/60)",
+                "Disarm "
+            ],
+            "Martial": [
+                " One Handed",
+                "Ranged 2d4 (30/120)",
+                "Disarm",
+                "Light "
+            ],
+            "Master": [
+                " One Handed",
+                "Ranged 2d4 (30/120)",
+                "Disarm",
+                "Light "
+            ],
+            "Master Perk": "On critical hit, the blade bounces off its target and hits another target of your choice within 10ft of the first target, dealing only weapon damage."
+        }
+    },
+    {
+        "name": "Dagger",
+        "propertytable": {
+            "Simple": [
+                " One Handed",
+                "Melee d4",
+                "Finesse",
+                "Light "
+            ],
+            "Martial": [
+                " One Handed",
+                "Melee d4",
+                "Conceal",
+                "<br>Finesse",
+                "Light",
+                "Thrown (20/60) "
+            ],
+            "Master": [
+                " One Handed",
+                "Melee d4",
+                "Conceal",
+                "Finesse",
+                "Light",
+                "Thrown (20/60) "
+            ],
+            "Master Perk": "You can use a bonus action to make<br> an attack with a dagger, even if you <br>don't take the attack action."
+        }
+    },
+    {
+        "name": "Kukri",
+        "propertytable": {
+            "Simple": [
+                " One Handed",
+                "Melee d4",
+                "Light",
+                "Thrown (20/60) "
+            ],
+            "Martial": [
+                " One Handed",
+                "Melee d6",
+                "Light",
+                "Thrown (40/80)",
+                "Trip "
+            ],
+            "Master": [
+                " One Handed",
+                "Melee d6",
+                "Disarm",
+                "Light",
+                "Thrown (40/120)",
+                "Trip "
+            ],
+            "Master Perk": "Reroll any damage die from this weapon or any abilities such as elemental damage that roll a 1. Additionally, when you trip, your target's speed is reduced by 10ft until the end of their next turn."
+        }
+    },
+    {
+        "name": "Rapier",
+        "propertytable": {
+            "Simple": [
+                " One Handed",
+                "Melee d6",
+                "Awkward "
+            ],
+            "Martial": [
+                " One Handed",
+                "Melee d8",
+                "Finesse",
+                "Light "
+            ],
+            "Master": [
+                " One Handed",
+                "Melee d8",
+                "Deflect",
+                "Finesse",
+                "Light",
+                "Lunge "
+            ],
+            "Master Perk": "If you are wielding a rapier and nothing in your off hand, you can add d4 to your damage roll. If you are wielding a light weapon, instead add +1 to AC."
+        }
+    },
+    {
+        "name": "Saber",
+        "propertytable": {
+            "Simple": [
+                " One Handed",
+                "Melee d6",
+                "Awkward "
+            ],
+            "Martial": [
+                " One Handed",
+                "Melee d8",
+                "Deflect",
+                "Finesse "
+            ],
+            "Master": [
+                " One Handed",
+                "Melee 2d4",
+                "Deflect",
+                "Finesse",
+                "Light "
+            ],
+            "Master Perk": "If an enemy hits you with a melee weapon attack, you can use your reaction to add your proficiency to your AC, possibly negating a successful hit. This added bonus to AC lasts for that enemy's turn only."
+        }
+    },
+    {
+        "name": "Sai",
+        "propertytable": {
+            "Simple": [
+                " One Handed",
+                "Melee d4",
+                "Awkward",
+                "Light "
+            ],
+            "Martial": [
+                " One Handed",
+                "Melee d4",
+                "Conceal",
+                "Deflect",
+                "Finesse",
+                "Light "
+            ],
+            "Master": [
+                " One Handed",
+                "Melee d4",
+                "Conceal",
+                "Deflect",
+                "Disarm",
+                "Finesse",
+                "Light "
+            ],
+            "Master Perk": "You gain +1 AC if you are wielding a Sai in your off hand and you can perform a disarm attack as a reaction when an enemy misses you with a melee weapon attack."
+        }
+    },
+    {
+        "name": "Shortsword",
+        "propertytable": {
+            "Simple": [
+                " One Handed",
+                "Melee d6",
+                "Finesse",
+                "Light "
+            ],
+            "Martial": [
+                " One Handed",
+                "Melee d6",
+                "Finesse",
+                "Light "
+            ],
+            "Master": [
+                " One Handed",
+                "Melee d8",
+                "Finesse",
+                "Light "
+            ],
+            "Master Perk": "When you have advantage on the attack, you can roll damage twice and take the better result, including any attachers, such as elemental imbue damage or sneak attacks."
+        }
+    },
+    {
+        "name": "Sickle",
+        "propertytable": {
+            "Simple": [
+                " One Handed",
+                "Melee d4",
+                "Light "
+            ],
+            "Martial": [
+                " One Handed",
+                "Melee d4",
+                "Light",
+                "Trip "
+            ],
+            "Master": [
+                " One Handed",
+                "Melee d6",
+                "Entangle",
+                "Light",
+                "Trip "
+            ],
+            "Master Perk": "Your entangle attacks deal full weapon damage on hit. When you hit with a trip attack, your enemy suffers -10 ft to its speed until the end of its next turn, regardless of if it succeeds on the save against the trip."
+        }
+    },
+    {
+        "name": "Smallsword",
+        "propertytable": {
+            "Simple": [
+                " One Handed",
+                "Melee d6",
+                "Awkward",
+                "Finesse "
+            ],
+            "Martial": [
+                " One Handed",
+                "Melee d6",
+                "Finesse",
+                "Light",
+                "Penetrate "
+            ],
+            "Master": [
+                " One Handed",
+                "Melee d6",
+                "Finesse",
+                "Light",
+                "Lunge",
+                "Penetrate "
+            ],
+            "Master Perk": "If you have advantage on your attack, you may add a d4 to your attack roll. If you have disadvantage on your attack, you may spend your bonus action to roll your choice of athletics or acrobatics to negate the disadvantage. The DC is equal to your target's AC."
+        }
+    },
+    {
+        "name": "Arquebus",
+        "propertytable": {
+            "Simple": [
+                " Two Handed",
+                "Ranged 2d10+5 (300/900) Awkward",
+                "Firearm",
+                "Heavy",
+                "Penetrate",
+                "Reload Attack "
+            ],
+            "Martial": [
+                " Two Handed",
+                "Ranged 2d10+5 (300/900)",
+                "Heavy",
+                "Firearm",
+                "Penetrate",
+                "Reload Attack "
+            ],
+            "Master": [
+                " Two Handed",
+                "Ranged 2d12+5 (300/900)",
+                "Heavy",
+                "Firearm",
+                "Penetrate",
+                "Reload  Attack "
+            ],
+            "Master Perk": "As a Bonus Action, you affix a bayonet to the arquebus, giving you a pike at Master training, including its Master Perk, but disadvantage on ranged attacks."
+        }
+    },
+    {
+        "name": "Hand Cannon",
+        "propertytable": {
+            "Simple": [
+                " One Handed",
+                "Ranged d10+5 (200/600) Awkward",
+                "Firearm",
+                "Light",
+                "Penetrate",
+                "Reload Attack "
+            ],
+            "Martial": [
+                " One Handed",
+                "Ranged d10+5 (200/600)",
+                "Firearm",
+                "Light",
+                "Penetrate",
+                "Reload Attack "
+            ],
+            "Master": [
+                " One Handed",
+                "Ranged d12+5 (200/600)",
+                "Firearm",
+                "Light",
+                "Penetrate",
+                "Reload Attack "
+            ],
+            "Master Perk": "You can make a ranged attack as a bonus action, even if you didn't take the attack action."
+        }
+    },
+    {
+        "name": "Blunderbuss",
+        "propertytable": {
+            "Simple": [
+                " Two Handed",
+                "Ranged 2d8+5 (60ft) Awkward",
+                "Firearm",
+                "Reload Attack",
+                "Trip "
+            ],
+            "Martial": [
+                " Two Handed",
+                "Ranged 2d8+5 (60ft)",
+                "Firearm",
+                "Reload Attack",
+                "Trip "
+            ],
+            "Master": [
+                " Two Handed",
+                "Ranged 2d10+5 (60ft)",
+                "Firearm",
+                "Reload Attack",
+                "Trip "
+            ],
+            "Master Perk": "If a target is within 15ft, it must succeed on a Strength saving throw or be pushed back 5ft or knocked prone."
+        }
+    },
+    {
+        "name": "Firelance",
+        "propertytable": {
+            "Simple": [
+                " Two Handed",
+                "Ranged d8 (15ft cone) Melee (d8)",
+                "Awkward",
+                "Firearm",
+                "Reload Bonus Action "
+            ],
+            "Martial": [
+                " Two Handed",
+                "Ranged d10 (15ft cone)",
+                "Melee (d12)",
+                "Firearm",
+                "Reload Bonus Action "
+            ],
+            "Master": [
+                " Two Handed",
+                "Ranged d12 (15ft cone)",
+                "Melee (2d8)",
+                "Firearm",
+                "Reload Bonus Action "
+            ],
+            "Master Perk": "While loaded, as an action, you sweep fire around you, forcing all targets within 10ft to succeed on a Dexterity saving throw or suffer 2d4 fire damage."
+        }
+    },
+    {
+        "name": "Pepperbox",
+        "propertytable": {
+            "Simple": [
+                " One Handed",
+                "Ranged 2d4+5 (30/120) Awkward",
+                "Conceal",
+                "Firearm",
+                "Light",
+                "Reload Action "
+            ],
+            "Martial": [
+                " One Handed",
+                "Ranged 2d4+5 (30/120)",
+                "Conceal",
+                "Firearm",
+                "Light",
+                "Reload Action "
+            ],
+            "Master": [
+                " One Handed",
+                "Ranged 2d4+5 (30/120)",
+                "Conceal",
+                "Firearm",
+                "Light",
+                "Reload Action "
+            ],
+            "Master Perk": "As an action, you fire all barrels at once, rolling an attack for each loaded barrel against an enemy 10ft or less from you. The weapon jams on 2-3, and is destroyed if you roll a 1."
+        }
+    },
+    {
+        "name": "Firepot",
+        "propertytable": {
+            "Simple": [
+                " One Handed",
+                "Thrown 2d6 (20/80) Awkward",
+                "Firearm",
+                "Launch",
+                "Light"
+            ],
+            "Martial": [
+                " One Handed",
+                "Thrown 2d6 (20/80)",
+                "Firearm",
+                "Launch",
+                "Light"
+            ],
+            "Master": [
+                " One Handed",
+                "Thrown 2d6 (20/80)",
+                "Firearm",
+                "Launch",
+                "Light"
+            ],
+            "Master Perk": "You can attack two targets if they are within 5ft of each other."
+        }
+    },
+    {
+        "name": "Flash Bomb",
+        "propertytable": {
+            "Simple": [
+                " One Handed",
+                "Thrown d8 (20/80) Awkward",
+                "Firearm",
+                "Launch",
+                "Light"
+            ],
+            "Martial": [
+                " One Handed",
+                "Thrown d8 (20/80)",
+                "Firearm",
+                "Launch",
+                "Light "
+            ],
+            "Master": [
+                " One Handed",
+                "Thrown d8 (20/80)",
+                "Firearm",
+                "Launch",
+                "Light "
+            ],
+            "Master Perk": "You don't suffer disadvantage if an is enemy within 5ft of you. You can choose to deal no damage, but give your target disadvantage on the save."
+        }
+    },
+    {
+        "name": "Powder Charge",
+        "propertytable": {
+            "Simple": [
+                " One Handed",
+                "Thrown 3d6 (20/80)",
+                "Awkward",
+                "Firearm",
+                "Launch",
+                "Light",
+                "Penetrate "
+            ],
+            "Martial": [
+                " One Handed",
+                "Thrown 3d6 (20/80)",
+                "Firearm",
+                "Launch",
+                "Light",
+                "Penetrate "
+            ],
+            "Master": [
+                " One Handed",
+                "Thrown 3d6 (20/80)",
+                "Firearm",
+                "Launch",
+                "Light",
+                "Penetrate "
+            ],
+            "Master Perk": "You can choose to deal only d6 damage, but force all affected targets to succeed on a Strength saving throw or fall prone."
+        }
+    },
+    {
+        "name": "Double Flail",
+        "propertytable": {
+            "Simple": [
+                " Two Handed",
+                "Melee 2d4",
+                "Awkward",
+                "Heavy "
+            ],
+            "Martial": [
+                " One Handed",
+                "Melee 2d4",
+                "Heavy",
+                "Versatile 2d6 "
+            ],
+            "Master": [
+                " One Handed",
+                "Melee 2d6",
+                "Heavy",
+                "Trip",
+                "Versatile 2d8 "
+            ],
+            "Master Perk": "When you suffer disadvantage but one dice would have hit, you deal 1 of the weapon's damage dice plus your strength modfier, <br>even though this still counts <br>as a miss. If you <br>have advantage <br>and both dice hit, <br>add your Strength <br>modifier twice to the<br> damage total."
+        }
+    },
+    {
+        "name": "Light Flail",
+        "propertytable": {
+            "Simple": [
+                " One Handed",
+                "Melee d4",
+                "Light",
+                "Trip  "
+            ],
+            "Martial": [
+                " One Handed",
+                "Melee d6",
+                "Disarm",
+                "Light",
+                "Trip "
+            ],
+            "Master": [
+                " One Handed",
+                "Melee d6",
+                "Disarm",
+                "Light",
+                "Trip "
+            ],
+            "Master Perk": "If you miss with an attack, you may use your reaction to make one extra attack as part of the same action."
+        }
+    },
+    {
+        "name": "Heavy Flail",
+        "propertytable": {
+            "Simple": [
+                " Two Handed",
+                "Melee d8",
+                "Awkward",
+                "Heavy",
+                "Penetrate "
+            ],
+            "Martial": [
+                " One Handed",
+                "Melee d8",
+                "Heavy",
+                "Penetrate",
+                "Trip",
+                "Versatile d10 "
+            ],
+            "Master": [
+                " One Handed",
+                "Melee d10",
+                "Disarm",
+                "Heavy",
+                "Penetrate",
+                "Trip",
+                "Versatile d12 "
+            ],
+            "Master Perk": "If the enemy succeeds on the save after your trip or disarm attack hits, you may make a free attack as part of the same action."
+        }
+    },
+    {
+        "name": "Pole Flail",
+        "propertytable": {
+            "Simple": [
+                " Two Handed",
+                "Melee d10",
+                "Awkward",
+                "Heavy",
+                "Reach "
+            ],
+            "Martial": [
+                " Two Handed",
+                "Melee d10",
+                "Heavy",
+                "Reach",
+                "Trip "
+            ],
+            "Master": [
+                " Two Handed",
+                "Melee d10",
+                "Entangle",
+                "Heavy",
+                "Reach",
+                "Trip "
+            ],
+            "Master Perk": "When you hit with an opportunity attack, that creature's speed is halved until the end of its next turn."
+        }
+    },
+    {
+        "name": "Meteor Hammer",
+        "propertytable": {
+            "Simple": [
+                " Two Handed",
+                "Melee d4",
+                "Awkward",
+                "Finesse",
+                "Lunge",
+                "Reach "
+            ],
+            "Martial": [
+                " Two Handed",
+                "Melee d4",
+                "Entangle",
+                "Finesse",
+                "Lunge",
+                "Reach "
+            ],
+            "Master": [
+                " Two Handed",
+                "Melee d4",
+                "Disarm",
+                "Entangle",
+                "Finesse",
+                "Lunge",
+                "Reach",
+                "Trip "
+            ],
+            "Master Perk": "As an action, you begin twirling the hammer around you in a 10ft radius. Until the start of your next turn, any creature of your choice which starts its turn or which enters this space must succeed on a Dexterity save or take d4 plus your choice of strength or dexterity modifier in bludgeoning damage."
+        }
+    },
+    {
+        "name": "Nunchaku",
+        "propertytable": {
+            "Simple": [
+                " One Handed",
+                "Meleed d4",
+                "Conceal",
+                "Finesse "
+            ],
+            "Martial": [
+                " One Handed",
+                "Melee d4",
+                "Conceal",
+                "Entangle",
+                "Finesse",
+                "Light",
+                "Trip "
+            ],
+            "Master": [
+                " One Handed",
+                "Melee d4",
+                "Conceal",
+                "Double Ended d4",
+                "Entangle",
+                "Finesse",
+                "Light",
+                "Trip "
+            ],
+            "Master Perk": "You can treat this weapon as if it is Double Ended even while wielding it in one hand. If you dual wield nunchaku, you may make two Double Ended attacks with the same Bonus Action. If you wield only one, you gain Disarm."
+        }
+    },
+    {
+        "name": "Whip",
+        "propertytable": {
+            "Simple": [
+                " One Handed",
+                "Melee d2",
+                "Awkward",
+                "Finesse "
+            ],
+            "Martial": [
+                " One Handed",
+                "Melee d4",
+                "Disarm",
+                "Finesse",
+                "Reach (15ft) "
+            ],
+            "Master": [
+                " One Handed",
+                "Melee d6",
+                "Disarm",
+                "Entangle",
+                "Finesse",
+                "Light",
+                "Reach (15ft)",
+                "Trip "
+            ],
+            "Master Perk": "When you disarm any creature, you choose to place the item anywhere in your reach, or catch it as a reaction. An item in your reach that can be grabbed with the whip can be placed anywhere else in your reach."
+        }
+    },
+    {
+        "name": "Chain Sword",
+        "propertytable": {
+            "Simple": [
+                " One Handed",
+                "Melee d4",
+                "Awkward",
+                "Reach "
+            ],
+            "Martial": [
+                " One Handed",
+                "Melee d6",
+                "Entangle",
+                "Finesse",
+                "Reach "
+            ],
+            "Master": [
+                " One Handed",
+                "Melee d6",
+                "Entangle",
+                "Finesse",
+                "Reach "
+            ],
+            "Master Perk": "While an enemy is entangled, you can still attack your entangled enemy, or any target within 5ft of it."
+        }
+    },
+    {
+        "name": "Light Hammer",
+        "propertytable": {
+            "Simple": [
+                " One Handed",
+                "Melee d6",
+                "Thrown (10/40) Awkward",
+                "Light "
+            ],
+            "Martial": [
+                " One Handed",
+                "Melee d6",
+                "Thrown (20/60) Light "
+            ],
+            "Master": [
+                " One Handed",
+                "Melee d6",
+                "Thrown (20/60) Light "
+            ],
+            "Master Perk": "If your attack is at least 5 higher than <br>the AC, your enemy's speed is reduced <br>by half until the start of your next turn."
+        }
+    },
+    {
+        "name": "War Hammer",
+        "propertytable": {
+            "Simple": [
+                " One Handed",
+                "Melee d8",
+                "Awkward",
+                "Penetrate "
+            ],
+            "Martial": [
+                " One Handed",
+                "Melee d8",
+                "Penetrate",
+                "Versatile d10"
+            ],
+            "Master": [
+                " One Handed",
+                "Melee d10",
+                "Penetrate",
+                "Versatile d12"
+            ],
+            "Master Perk": "You ignore resistance to non-magical <br>bludgeoning damage, and when you score a critical hit, your enemy becomes vulnerable to bludgeoning damage for that attack."
+        }
+    },
+    {
+        "name": "Maul",
+        "propertytable": {
+            "Simple": [
+                "Two Handed",
+                "Melee d12",
+                "Awkward",
+                "Heavy",
+                "Penetrate"
+            ],
+            "Martial": [
+                "Two Handed",
+                "Melee 2d6",
+                "Heavy",
+                "Penetrate",
+                "Trip"
+            ],
+            "Master": [
+                "Two Handed",
+                "Melee 2d8",
+                "Heavy",
+                "Penetrate",
+                "Trip"
+            ],
+            "Master Perk": "If you move at least 10 ft before making an attack, you gain +5 bonus to the attack's damage roll and your shove attacks knock foes 10 ft and prone instead of 5 ft or prone."
+        }
+    },
+    {
+        "name": "Lucerne",
+        "propertytable": {
+            "Simple": [
+                "Two Handed",
+                "Melee 2d6",
+                "Awkward",
+                "Brace",
+                "Heavy",
+                "Penetrate",
+                "Reach"
+            ],
+            "Martial": [
+                "Two Handed",
+                "Melee 2d6",
+                "Brace",
+                "Heavy",
+                "Penetrate",
+                "Reach",
+                "Trip"
+            ],
+            "Master": [
+                "Two Handed",
+                "Melee 2d6",
+                "Brace",
+                "Heavy",
+                "Penetrate",
+                "Reach",
+                "Trip"
+            ],
+            "Master Perk": "As an action, you roll an attack to destroy the shield or armor worn by the enemy. On a hit, your enemy must succeed on a Dexterity saving throw or their AC is reduced by 2. If they succeed on this save, they instead take damage."
+        }
+    },
+    {
+        "name": "Light Pick",
+        "propertytable": {
+            "Simple": [
+                "One Handed",
+                "Melee d4",
+                "Thrown (10/40) Finesse",
+                "Light",
+                "Penetrate"
+            ],
+            "Martial": [
+                "One Handed",
+                "Melee d4",
+                "Thrown (20/60) Finesse",
+                "Light",
+                "Penetrate",
+                "Trip"
+            ],
+            "Master": [
+                "One Handed",
+                "Melee d6",
+                "Thrown (20/60)",
+                "Finesse",
+                "Light",
+                "Penetrate",
+                "Trip"
+            ],
+            "Master Perk": "You have +2 to attacks against any enemy wearing armor."
+        }
+    },
+    {
+        "name": "Wall Pick",
+        "propertytable": {
+            "Simple": [
+                "One Handed",
+                "Melee d6",
+                "Thrown (10/40) Awkward",
+                "Penetrate"
+            ],
+            "Martial": [
+                "One Handed",
+                "Melee d6",
+                "Thrown (20/60) Entangle",
+                "Light",
+                "Penetrate",
+                "Trip"
+            ],
+            "Master": [
+                "One Handed",
+                "Melee d8",
+                "Finesse",
+                "Thrown (20/60)",
+                "Disarm",
+                "Entangle",
+                "Light",
+                "Penetrate",
+                "Trip"
+            ],
+            "Master Perk": "You have advantage on attack rolls made to entangle, and if both dice would have hit, your enemy has the restrained and grappled condition."
+        }
+    },
+    {
+        "name": "War Pick",
+        "propertytable": {
+            "Simple": [
+                "One Handed",
+                "Melee d8",
+                "Awkward",
+                "Penetrate"
+            ],
+            "Martial": [
+                "One Handed",
+                "Melee d8",
+                "Penetrate",
+                "Trip"
+            ],
+            "Master": [
+                "One Handed",
+                "Melee d10",
+                "Penetrate",
+                "Trip"
+            ],
+            "Master Perk": "You can choose to take -5 to your attack roll, and if successful, your target takes piercing damage equal to your strength modifier at the start of each of their turns. A creature can attempt a Constitution saving throw at the end of their turn, ending the effect on a success. If the creature receives any healing, this also ends the effect."
+        }
+    },
+    {
+        "name": "Stiletto",
+        "propertytable": {
+            "Simple": [
+                " One Handed",
+                "Melee d4",
+                "Thrown (10/40) Finesse",
+                "Light",
+                "Penetrate "
+            ],
+            "Martial": [
+                " One Handed",
+                "Melee d4",
+                "Thrown (20/60) Conceal",
+                "Entangle",
+                "Finesse",
+                "Light",
+                "Penetrate "
+            ],
+            "Master": [
+                " One Handed",
+                "Melee d4",
+                "Thrown (20/60) Conceal",
+                "Entangle",
+                "Finesse",
+                "Light",
+                "Penetrate "
+            ],
+            "Master Perk": "When you successfully Entangle, as a bonus action you can attempt a shove."
+        }
+    },
+    {
+        "name": "Glaive",
+        "propertytable": {
+            "Simple": [
+                "Two Handed",
+                "Melee d10",
+                "Awkward",
+                "Brace",
+                "Finesse",
+                "Reach",
+                "Heavy"
+            ],
+            "Martial": [
+                "Two Handed",
+                "Melee 2d6",
+                "Brace,<br> Finesse",
+                "Reach",
+                "Heavy"
+            ],
+            "Master": [
+                "Two Handed",
+                "Melee 2d6",
+                "Brace",
+                "Finesse",
+                "Reach,<br> Lunge",
+                "Heavy"
+            ],
+            "Master Perk": "Against creatures of category size Large<br> and larger, your damage is 3d6 instead of<br> 2d6. Your Double Ended Attack is still d4."
+        }
+    },
+    {
+        "name": "Guisarme",
+        "propertytable": {
+            "Simple": [
+                "Two Handed",
+                "Melee d8",
+                "Brace",
+                "Reach",
+                "Trip",
+                "Heavy"
+            ],
+            "Martial": [
+                "Two Handed",
+                "Melee d10",
+                "Brace",
+                "Reach",
+                "Trip",
+                "Heavy"
+            ],
+            "Master": [
+                "Two handed",
+                "Melee d10",
+                "Brace",
+                "Reach",
+                "Trip",
+                "Heavy"
+            ],
+            "Master Perk": "You have advantage on trip attacks made to targets at 10ft away from you, and if you succeed against a mounted foe, it is automatically pulled from its mount to a prone position without making any additional saves. When you successfully hit with a trip attack, its speed is reduced by 10ft until the end of its next turn, regardless of whether it succeeded on the save."
+        }
+    },
+    {
+        "name": "Lajatang",
+        "propertytable": {
+            "Simple": [
+                "Two Handed",
+                "Melee d6",
+                "Awkward",
+                "Brace",
+                "Reach"
+            ],
+            "Martial": [
+                "Two Handed",
+                "Melee d8",
+                "Double Ended d8",
+                "Brace",
+                "Finesse",
+                "Reach"
+            ],
+            "Master": [
+                "Two Handed",
+                "Melee d10",
+                "Double Ended d10",
+                "Brace",
+                "Finesse",
+                "Reach"
+            ],
+            "Master Perk": "You negate any effect an enemy might gain from flanking or having the enemy's ally near you, including bonuses such as Pack Tactics or Sneak Attack. In addition, you make two attacks with Double Ended instead of the usual one, however your second attack from Double Ended must choose a different target than the first."
+        }
+    },
+    {
+        "name": "Partisan",
+        "propertytable": {
+            "Simple": [
+                "Two Handed",
+                "Melee d10",
+                "Awkward",
+                "Brace",
+                "Reach",
+                "Heavy"
+            ],
+            "Martial": [
+                "Two Handed",
+                "Melee 2d6",
+                "Brace",
+                "Reach",
+                "Heavy"
+            ],
+            "Master": [
+                "Two Handed",
+                "Melee 2d6",
+                "Brace",
+                "Reach",
+                "Lunge",
+                "Heavy"
+            ],
+            "Master Perk": "You have +2AC against melee attacks from enemies that are 10ft away from you. When an enemy targets an ally within 5ft of you, you can use your reaction to <br>impose disadvantage <br>to that attack."
+        }
+    },
+    {
+        "name": "War Scythe",
+        "propertytable": {
+            "Simple": [
+                "Two Handed",
+                "Melee 2d6",
+                "Heavy",
+                "Penetrate",
+                "Reach",
+                "Trip "
+            ],
+            "Martial": [
+                "Two Handed",
+                "Melee 2d6",
+                "Heavy",
+                "Entangle",
+                "Penetrate",
+                "Reach",
+                "Trip"
+            ],
+            "Master": [
+                "Two handed",
+                "Melee 2d8",
+                "Heavy",
+                "Entangle",
+                "Penetrate",
+                "Reach",
+                "Trip"
+            ],
+            "Master Perk": "When you successfully trip an enemy, that enemy takes full weapon damage, and has its speed reduced to just 10ft until the end of its next turn."
+        }
+    },
+    {
+        "name": "Godendag",
+        "propertytable": {
+            "Simple": [
+                "Two Handed",
+                "Melee d6",
+                "Thrown (10/40)",
+                "Awkward",
+                "Penetrate"
+            ],
+            "Martial": [
+                "Two Handed",
+                "Melee d6",
+                "Thrown (20/60)",
+                "Penetrate",
+                "Trip"
+            ],
+            "Master": [
+                "Two Handed",
+                "Melee d8",
+                "Disarm",
+                "Thrown (30/120)",
+                "Penetrate",
+                "Trip"
+            ],
+            "Master Perk": "Before you attack, you can choose to take -5 to the roll. If you hit, your foe must succeed on a Constitution saving throw or be stunned until the end of your next turn."
+        }
+    },
+    {
+        "name": "Javelin",
+        "propertytable": {
+            "Simple": [
+                "One Handed",
+                "Melee d6",
+                "Thrown (20/60)",
+                "Light"
+            ],
+            "Martial": [
+                "One Handed",
+                "Melee d6",
+                "Thrown (30/120)",
+                "Light"
+            ],
+            "Master": [
+                "One Handed",
+                "Melee d8",
+                "Thrown (30/240)",
+                "Light"
+            ],
+            "Master Perk": "Before the attack, you can take -5 to your attack roll. If you hit, your enemy can no longer use their shield until they use an action to pry the remnants of the javelin from the shield itself."
+        }
+    },
+    {
+        "name": "Harpoon",
+        "propertytable": {
+            "Simple": [
+                "Two Handed",
+                "Melee d6",
+                "Thrown (10/40)",
+                "Awkward",
+                "Light"
+            ],
+            "Martial": [
+                "Two Handed",
+                "Melee d6",
+                "Thrown (20/60)",
+                "Light"
+            ],
+            "Master": [
+                "One Handed",
+                "Melee d8",
+                "Penetrate",
+                "Thrown (30/120)",
+                "Light "
+            ],
+            "Master Perk": "You may drag an enemy back to you at twice your climbing speed, and enemies have disadvantage Strength saving throws."
+        }
+    },
+    {
+        "name": "Lance",
+        "propertytable": {
+            "Simple": [
+                "Two Handed Melee d8",
+                "Awkward",
+                "Brace",
+                "Reach"
+            ],
+            "Martial": [
+                "Two Handed Melee d12",
+                "Brace",
+                "Reach "
+            ],
+            "Master": [
+                "One Handed",
+                "Melee 2d8",
+                "Brace",
+                "Reach "
+            ],
+            "Master Perk": "While mounted, each attack is also a shove attempt, and you have advantage in the contest."
+        }
+    },
+    {
+        "name": "Pike",
+        "propertytable": {
+            "Simple": [
+                "Two Handed",
+                "Melee d8",
+                "Brace",
+                "Heavy",
+                "Reach"
+            ],
+            "Martial": [
+                "Two Handed",
+                "Melee d12",
+                "Brace",
+                "Heavy",
+                "Lunge",
+                "Reach"
+            ],
+            "Master": [
+                "Two Handed",
+                "Melee 2d8",
+                "Brace",
+                "Heavy",
+                "Lunge",
+                "Reach "
+            ],
+            "Master Perk": "No creature gives half cover to your enemy while at reach. Your allies still provide half cover to you."
+        }
+    },
+    {
+        "name": "War Spear",
+        "propertytable": {
+            "Simple": [
+                "Two Handed",
+                "Melee d8",
+                "Awkward"
+            ],
+            "Martial": [
+                "One Handed",
+                "Melee d8",
+                "Thrown (20/60)",
+                "Double Ended d4",
+                "Finesse",
+                "Versatile d10"
+            ],
+            "Master": [
+                "One Handed",
+                "Melee d10",
+                "Thrown (30/120)",
+                "Double Ended d4",
+                "Finesse",
+                "Versatile d12"
+            ],
+            "Master Perk": "If you hit the same target twice in a row, your second hit deals an extra d6 damage. As long as you continue to hit the same target, even between turns, you deal the extra damage. If you ever miss or change targets you must start this process over."
+        }
+    },
+    {
+        "name": "Ravenbeak",
+        "propertytable": {
+            "Simple": [
+                "Two Handed",
+                "Melee d8",
+                "Brace",
+                "Heavy",
+                "Reach",
+                "Trip "
+            ],
+            "Martial": [
+                "Two Handed",
+                "Melee d8",
+                "Brace",
+                "Entangle",
+                "Heavy",
+                "Lunge",
+                "Reach",
+                "Trip "
+            ],
+            "Master": [
+                "Two Handed",
+                "Melee d8",
+                "Brace",
+                "Disarm",
+                "Entangle",
+                "Heavy",
+                "Lunge",
+                "Reach",
+                "Trip "
+            ],
+            "Master Perk": "While at reach, you ignore any shield AC. Additionally, your disarm attacks deal full weapon damage if the enemy fails the saving throw."
+        }
+    },
+    {
+        "name": "Trident",
+        "propertytable": {
+            "Simple": [
+                "One Handed",
+                "Melee d6",
+                "Awkward"
+            ],
+            "Martial": [
+                "One Handed",
+                "Melee d8",
+                "Disarm",
+                "Thrown (20/60)",
+                "Versatile 2d4"
+            ],
+            "Master": [
+                "One Handed",
+                "Melee d12",
+                "Deflect 3d4",
+                "Disarm",
+                "Thrown (30/120)",
+                "Versatile 3d4"
+            ],
+            "Master Perk": "If you hit with a Thrown attack, the enemy must succeed on a Strength saving throw or their speed is reduced by half until they use an action to remove it. If an enemy misses you with a melee weapon attack, you may use your reaction to attempt a disarm attack."
+        }
+    },
+    {
+        "name": "Bolas",
+        "propertytable": {
+            "Simple": [
+                "One Handed",
+                "Thrown d4 (10/30) Awkward"
+            ],
+            "Martial": [
+                "One Handed",
+                "Thrown d4 (20/30)",
+                "Entangle"
+            ],
+            "Master": [
+                "One Handed",
+                "Thrown d4 (40/60)",
+                "Entangle",
+                "Trip. "
+            ],
+            "Master Perk": "On a hit, you deal your weapon's normal <br>damage and your enemy must succeed on<br> a save against both an Entangle and Trip."
+        }
+    },
+    {
+        "name": "Boomerang",
+        "propertytable": {
+            "Simple": [
+                "One Handed",
+                "Melee d6",
+                "Thrown (30/120)",
+                "Awkward",
+                "Light"
+            ],
+            "Martial": [
+                "One Handed",
+                "Melee d6",
+                "Thrown (40/120)",
+                "<br>Light"
+            ],
+            "Master": [
+                "One Handed",
+                "Melee d6",
+                "Thrown (80/240)",
+                "Light"
+            ],
+            "Master Perk": "You ignore cover and can target two separate targets within your normal range with one attack."
+        }
+    },
+    {
+        "name": "Chakram",
+        "propertytable": {
+            "Simple": [
+                "One Handed",
+                "Melee d4",
+                "Thrown (20/60)",
+                "Awkward",
+                "Light"
+            ],
+            "Martial": [
+                "One Handed",
+                "Melee d6",
+                "Thrown (40/120)",
+                "Finesse",
+                "Light"
+            ],
+            "Master": [
+                "One Handed",
+                "Melee d8",
+                "Thrown (80/500)",
+                "Finesse",
+                "Light"
+            ],
+            "Master Perk": "If a creature misses you with a ranged or melee attack, you can use your reaction to make a ranged or melee attack against that creature."
+        }
+    },
+    {
+        "name": "Dart",
+        "propertytable": {
+            "Simple": [
+                "One Handed",
+                "Thrown d4",
+                "(20/60)",
+                "Conceal Finesse",
+                "Light",
+                "Penetrate"
+            ],
+            "Martial": [
+                "One Handed",
+                "Thrown d4",
+                "(30/60)",
+                "Conceal Finesse",
+                " Light",
+                "Penetrate"
+            ],
+            "Master": [
+                "One Handed",
+                "Thrown d6",
+                "(60/120)",
+                "Conceal Finesse",
+                "Light",
+                "Penetrate"
+            ],
+            "Master Perk": "When you land a hit, you can choose to deal no damage and instead pin the enemy to an adjacent wall or obstacle such as a tree or boulder. Your enemy is restrained, the escape DC is your weapon DC."
+        }
+    },
+    {
+        "name": "Net",
+        "propertytable": {
+            "Simple": [
+                "Two handed",
+                "Thrown (5ft)",
+                "Awkward."
+            ],
+            "Martial": [
+                "Two Handed",
+                "Thrown (10ft) Entangle"
+            ],
+            "Master": [
+                "One Handed",
+                "Thrown (15ft)",
+                "Deflect d6",
+                "Entangle",
+                "Light",
+                "Trip"
+            ],
+            "Master Perk": "If you have advantage when you entangle your enemy, it has disadvantage on the check made to escape."
+        }
+    },
+    {
+        "name": "Throwing Shot",
+        "propertytable": {
+            "Simple": [
+                "Two Handed",
+                "Thrown d8 (10ft) Awkward",
+                "Penetrate"
+            ],
+            "Martial": [
+                "Two Handed",
+                "Thrown d10 (20/60)",
+                "Penetrate",
+                "Trip"
+            ],
+            "Master": [
+                "One Handed",
+                "Thrown d12 (30/90)",
+                "Disarm",
+                "Penetrate",
+                "Trip"
+            ],
+            "Master Perk": "If you have advantage and both dice would have hit, or if you score a critical hit, your enemy is stunned until the end of its next turn. If you have disadvantage but one dice would have hit, deal your strength modifier in damage to the target, though this still counts as a miss."
+        }
+    },
+    {
+        "name": "Throwing Star",
+        "propertytable": {
+            "Simple": [
+                "One Handed",
+                "Thrown d4 (10/30)",
+                "Conceal",
+                "Finesse",
+                "Light"
+            ],
+            "Martial": [
+                "One Handed",
+                "Thrown d4 (20/60)",
+                "Conceal",
+                "Finesse",
+                "Light"
+            ],
+            "Master": [
+                "One Handed",
+                "Thrown d4 (40/120)",
+                "Conceal",
+                "Finesse",
+                "Light"
+            ],
+            "Master Perk": "As an Action, you can force all targets of your choice in a 15ft cone to succeed on a Dexterity Saving Throw or suffer d4 plus your choice of Strength or Dexterity modifier in piercing damage. You throw as many stars as there are valid targets."
+        }
+    },
+    {
+        "name": "Throwing Knife",
+        "propertytable": {
+            "Simple": [
+                "One Handed",
+                "Melee d4",
+                "Thrown (10/30)",
+                "Awkward",
+                "Conceal",
+                "Finesse",
+                "Light"
+            ],
+            "Martial": [
+                "One Handed",
+                "Melee d4",
+                "Thrown (20/60)",
+                "Conceal",
+                "Finesse",
+                "Light"
+            ],
+            "Master": [
+                "One Handed",
+                "Melee d4",
+                "Thrown (40/120)",
+                "Conceal",
+                "Finesse",
+                "Light"
+            ],
+            "Master Perk": "As an action, you can force all targets of your choice within 10ft to succeed on a Dexterity Saving Throw or take d4 plus your choice of your Strength or Dexterity modifier in piercing damage. You throw as many knives as there are valid targets."
+        }
+    }
+]
